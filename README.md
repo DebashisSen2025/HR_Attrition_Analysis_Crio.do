@@ -1,123 +1,72 @@
-## HR Attrition Analysis Dashboard (Power BI)
-📌 Project Overview
+# 👥 HR Attrition Analysis Dashboard | Power BI
 
-This project focuses on analyzing employee attrition trends using an interactive Power BI Dashboard.
-The dashboard helps HR teams and business leaders understand the key reasons behind employee attrition and take data-driven decisions to improve retention.
+> Interactive Power BI dashboard analyzing employee attrition trends,
+> demographics, job roles, salary patterns, and satisfaction levels
+> to help HR teams build data-driven retention strategies.
 
-🎯 Objective
+![Power BI](https://img.shields.io/badge/Power%20BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
+![DAX](https://img.shields.io/badge/DAX-0078D4?style=for-the-badge&logo=microsoft&logoColor=white)
+![Power Query](https://img.shields.io/badge/Power%20Query-217346?style=for-the-badge&logo=microsoft&logoColor=white)
+![Excel](https://img.shields.io/badge/Excel-217346?style=for-the-badge&logo=microsoftexcel&logoColor=white)
+![Status](https://img.shields.io/badge/Status-Completed-brightgreen?style=for-the-badge)
 
-The main objectives of this project are:
+---
 
-Identify overall Attrition Rate
+## 📸 Dashboard Preview
 
-Analyze attrition based on Department, Job Role, Gender, Age, Salary, Education
+![HR Attrition Dashboard](hr_attrition_dashboard.jpg)
 
-Understand factors affecting employee resignation
+---
 
-Provide actionable insights for improving employee retention
+## 📌 Project Overview
 
-📂 Dataset Information
+| Detail      | Info                                           |
+|-------------|------------------------------------------------|
+| Tool        | Power BI Desktop                               |
+| Data Source | Employee Attrition Analysis - Dataset.xlsx     |
+| Techniques  | DAX, Power Query, KPI Cards, Slicers           |
+| Domain      | Human Resources / Workforce Analytics          |
+| Records     | 1,470+ Employee Records                        |
+| Status      | ✅ Completed                                   |
 
-The dataset contains employee details such as:
+---
 
-Employee Age
+## 🎯 Business Questions Answered
 
-Gender
+- ✅ What is the overall attrition rate across the organization?
+- ✅ Which departments and job roles have the highest attrition?
+- ✅ How does salary level impact employee resignation?
+- ✅ What role does job satisfaction and work-life balance play?
+- ✅ How does age group and gender affect attrition patterns?
+- ✅ Which employees are at highest risk of leaving?
 
-Department
+---
 
-Job Role
+## 📊 Key KPIs Tracked
 
-Monthly Income
+| KPI | Description |
+|-----|-------------|
+| Total Employees | Overall headcount |
+| Total Attrition | Number of employees who left |
+| Attrition Rate % | Percentage turnover |
+| Avg Age | Average employee age |
+| Avg Salary | Average monthly income |
+| Avg Tenure | Average years at company |
 
-Education Level
+---
 
-Job Satisfaction
+## 🔍 Key Insights
 
-Work Life Balance
+- 🏢 **Sales & R&D departments** show the highest attrition rates
+- 💰 **Low salary slab (below ₹5K)** employees have significantly higher
+  resignation tendency
+- 😞 **Low job satisfaction scores** strongly correlate with attrition
+- 🧑 **Age group 26–35** accounts for the largest share of attrition
+- ⚖️ **Poor work-life balance** is a leading driver of employee turnover
+- 🔬 **Lab Technician and Sales Executive** roles show highest attrition
+  among all job roles
 
-Years at Company
+---
 
-Attrition Status (Yes/No)
-
-📌 Key KPIs Used
-
-The dashboard tracks important HR metrics like:
-
-Total Employees
-
-Total Attrition
-
-Attrition Rate (%)
-
-Average Age
-
-Average Salary
-
-Average Years at Company
-
-Attrition by Department
-
-Attrition by Job Role
-
-Attrition by Gender
-
-Attrition by Age Group
-
-Attrition by Salary Slab
-
-📊 Dashboard Insights
-
-Some important insights derived from this dashboard:
-
-✅ Highest attrition observed in specific job roles and departments
-✅ Attrition rate higher among employees with low job satisfaction
-✅ Employees with less experience and low salary slabs show higher resignation trends
-✅ Work-life balance and job involvement play a major role in retention
-
-🛠 Tools & Technologies Used
-
-Power BI
-
-Power Query (Data Cleaning & Transformation)
-
-DAX (Measures & Calculations)
-
-Excel Dataset
-
-📌 Dashboard Features
-
-✔ Interactive Filters (Slicers)
-✔ Department-wise Attrition Analysis
-✔ Job Role & Salary Based Breakdown
-✔ Gender and Age Group Insights
-✔ KPI Cards for Quick Summary
-✔ Clean & Professional Dashboard Layout
-
-📁 Project Files
-
-HR Attrition Analysis.pbix → Power BI Dashboard File
-
-Dataset.xlsx / CSV → HR Dataset
-
-README.md → Project Documentation
-
-🚀 How to Use
-
-Download the .pbix file from this repository
-
-Open it using Power BI Desktop
-
-Explore interactive dashboard using slicers and visuals
-
-📌 Conclusion
-
-This project provides a detailed view of employee attrition patterns and helps organizations understand the major drivers behind attrition.
-The insights from this dashboard can support HR teams in creating better retention strategies and improving workforce stability.
-
-👨‍💻 Author
-
-Debashis Sen
-📍 Aspiring Data Analyst | SQL | Power BI | Excel | Python
-🔗 LinkedIn: (linkedin.com/in/debashis-sen25)
-🔗 GitHub: (https://github.com/DebashisSen2025/HR_Attrition_Analysis_Crio.do)
+## 🧮 DAX Measures Used
+```dax
